@@ -170,7 +170,7 @@ export function DoctorDashboard() {
     <div className="p-4 lg:p-6 space-y-6">
       <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}>
         <h2 className="text-2xl font-bold text-[#2C3E2D]">Bienvenido, {currentUser?.name}</h2>
-        <p className="text-[#8B948B] mt-1">Panel de control del doctor</p>
+        <p className="text-[#8B948B] mt-1">Panel de control</p>
       </motion.div>
 
       <motion.div variants={containerVariants} initial="hidden" animate="show" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

@@ -13,7 +13,7 @@ export const mockUsers: User[] = [
   {
     id: 'user-doctor-1',
     name: 'Dra. Geraldine Caballero Licas',
-    email: 'doctora@marfilstetic.com',
+    email: 'doctor@marfilstetic.com',
     password: 'doctor123',
     role: 'doctor',
     specialty: 'Odontología Estética',
