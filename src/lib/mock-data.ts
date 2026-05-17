@@ -12,15 +12,15 @@ export const mockUsers: User[] = [
   },
   {
     id: 'user-doctor-1',
-    name: 'Dr. Alejandro Vargas',
-    email: 'doctor@marfilstetic.com',
+    name: 'Dra. Geraldine Caballero Licas',
+    email: 'doctora@marfilstetic.com',
     password: 'doctor123',
     role: 'doctor',
     specialty: 'Odontología Estética',
   },
   {
     id: 'user-technician-1',
-    name: 'Téc. María López',
+    name: 'Téc. Marfil Stetic 2',
     email: 'tecnico@marfilstetic.com',
     password: 'tecnico123',
     role: 'technician',
@@ -28,7 +28,7 @@ export const mockUsers: User[] = [
   },
   {
     id: 'user-technician-2',
-    name: 'Téc. Roberto Sánchez',
+    name: 'Téc. Marfil Stetic 1',
     email: 'tecnico2@marfilstetic.com',
     password: 'tecnico123',
     role: 'technician',
